@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-footer {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+}
+
+.header-title {
+  font-size: 24px;
+}
+.cart-product-image {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.increase-button,
+.decrease-button {
+  background-color: white;
+  border: 1px solid white;
+  color: #32cd32;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.increase-button:hover {
+  background-color: #32cd32;
+  color: white;
+}
+.decrease-button:hover {
+  background-color: red;
+  color: white;
+}
+.remove-button {
+  background-color: white;
+  border: 1px solid #ff0000;
+  color: #ff0000;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.remove-button:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+.cart-total {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.view-description-button {
+  background-color: red;
+}
+.add-to-cart-button {
+  background-color: burlywood;
+}
+.cart-button {
+  background-color: #0074d9;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+.cart-button {
+  background-color: blueviolet;
+}
+
+.cart-button:hover {
+  background-color: #d7001a;
+}
